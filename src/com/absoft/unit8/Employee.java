@@ -37,6 +37,17 @@ public class Employee {
         return "Employee info: " + this.firstName + " " + this.lastName + " " + this.position.toString();
     }
 
+
+/*    public boolean equals(Object obj){
+        if(obj instanceof Employee){
+            if( ((Employee)obj).firstName.equals(this.firstName) &&
+                    ((Employee)obj).lastName.equals(this.lastName)){
+                return true;
+            }
+        }
+        return false;
+    }*/
+
     public boolean equals(Object obj){
 
         return obj instanceof Employee
